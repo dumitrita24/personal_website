@@ -1,0 +1,63 @@
+table, th, td {
+    border:1px solid black;
+  }
+
+  body {
+      background-color: #057b7686;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      align-items: center;
+      margin-top: auto;   
+  }
+
+  #NumePrenume {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 55px;
+      margin-top: 30px;
+  }
+
+  p {
+      color: black;
+  }
+
+  h3 {
+      color: black;
+      font-size: large;
+  }
+
+  td, li {
+      color: black;
+      text-align: center;
+  }
+
+  td {
+      border: 2px solid #057b75;
+  }
+
+  table {
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  ul {
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #Poză {
+      border-radius: 360% ;
+      opacity: 90%;
+  }
+
+  li::marker {
+      content: "🔵";
+      font-size: 10px;
+  }
+ 
+  img {
+    width: 20%;
+    border-radius: 50%;
+  }

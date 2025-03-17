@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head></head>
+    <title>Cuprins</title>
+    <link rel="stylesheet" href="Stilizare.css">
+    <style >
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+    </style>
+
+</head>    
+
+<body>
+    <img src="ut_logo.jpg" height="200">
+    <h3>Informatică aplicată 2023-2024</h3>
+    <h1>Catalogul colegilor</h1>
+    <a href="PrezentarePersonala.html">Miron Dumitrița</a><br>
+    <a href="PopFabioGabriel_G7_SG2_LAB5.html">Pop Fabio Gabriel</a><br>
+    <a href="lab5prezentare.html">Pop Denisa Teodora</a><br>
+    <a href="laborator-5.html">Puțan Adela-Larisa</a><br>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img  src="poză_profil.jpg" style="width:100%">
+           
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="denisa_pop.png" style="width:100%">
+            
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="adela.putan.png" style="width:100%">
+            
+        </div>
+
+    </div>
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+<script src="ex3.js"></script>
+</body>
+</html>
